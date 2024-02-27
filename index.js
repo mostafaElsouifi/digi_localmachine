@@ -64,16 +64,7 @@ const generateBlogWithProducts = async (searchTerm) => {
   return { newBlog /*newProduct*/ };
 };
 product = [
-  "Moroccanoil Treatment",
-  "Biolage Matrix Shampoo",
-  "Olaplex No. 3 Hair Perfector",
-  "Redken All Soft Argan Oil",
-  "Aveda Damage Remedy Intensive Restructuring Treatment",
-  "Kérastase Elixir Ultime",
-  "TRESemmé Thermal Creations Heat Tamer Spray",
-  "Paul Mitchell Tea Tree Special Shampoo",
-  "GHD Platinum+ Professional Performance Styler",
-  "SheaMoisture Coconut & Hibiscus Curl Enhancing Smoothie",
+  ""
 ];
 (async () => {
   for (let i = 0; i < product.length; i++) {
